@@ -10,19 +10,19 @@ const Footer = (props) => {
   return (
     // Start Footer
     <footer>
-      <div class="hero-footer">
-        <div class="footer-addres">
+      <div className="hero-footer">
+        <div className="footer-addres">
           <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
           <p>binarcarrental@gmail.com</p>
           <p>081-233-334-808</p>
         </div>
-        <div class="footer-menu">
+        <div className="footer-menu">
           <Link to="#">Our Services</Link>
           <Link to="#">Why Us</Link>
           <Link to="#">Testimonial</Link>
           <Link to="#">FAQ</Link>
         </div>
-        <div class="footer-social">
+        <div className="footer-social">
           <p>Connect with us</p>
           <Link to="#">
             <img src={facebook} />
@@ -40,7 +40,7 @@ const Footer = (props) => {
             <img src={twitch} />
           </Link>
         </div>
-        <div class="copyright-footer">
+        <div className="copyright-footer">
           <p>Copyright Binar 2022</p>
           <img src="./assets/Rectangle 74.png" alt="" />
         </div>
